@@ -1,18 +1,30 @@
+import Link from "next/link";
+
 const Services: React.FC = () => {
-    return (
-      <div>
-        <b><h1>Our Services:</h1></b>
-        <p>We provide a wide range of web development services to help bring your ideas to life, including:</p>
-        <ul>
-          <li><strong>Website Design:</strong> Creating visually appealing and user-friendly website designs.</li>
-          <li><strong>Website Development:</strong> Building responsive and functional websites using the latest technologies.</li>
-          <li><strong>SEO Optimization:</strong> Ensuring your website is search engine optimized to improve visibility.</li>
-          <li><strong>ECommerce Solutions:</strong> Setting up and developing eCommerce platforms for online businesses.</li>
-          <li><strong>Maintenance & Support:</strong> Providing ongoing website maintenance and technical support.</li>
-        </ul>
-      </div>
-    );
-  }
-  
-  export default Services;
-  
+      return (
+        <div className="bg-rose-600 text-white pt-10 pb-10 text-center m-20 rounded-lg">
+       <h1 className="font-extrabold">Services:</h1>
+
+           <p className="text-xl">We specialize in creating engaging, user-friendly websites.</p>
+               We offer a range of web development services, including:
+             <ul>
+               <li>Custom website design and development</li>
+               <li>SEO optimization</li>
+               <li>E-commerce solutions</li>
+               <li>Ongoing website maintenance and support</li>
+             </ul>
+            
+            
+
+            <div className="mt-5">
+              <Link href="/">
+              <button className="bg-rose-300 px-5 text-black hover:bg-rose-800 py-2 hover:text-white transition rounded-full">Go to Home Page</button>
+              </Link>
+            </div>
+          </div>
+      );
+    }
+   
+
+
+   export default Services; 

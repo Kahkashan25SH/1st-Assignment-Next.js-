@@ -1,19 +1,22 @@
+import Link from 'next/link';
 import React from 'react'
+import Navbar from './component/Navbar'
+import Hero from './component/Hero'
+import Footer from './component/Footer'
 
-
-const Home: React.FC = () => {
+// Home component
+function HomePage(){
   return (
-    <div className="container">
-      <b><h1>Home Page</h1></b>
-      <nav>
-        <ul>
-          <li><a href="/about">About</a></li>
-          <li><a href="/contact">Contact</a></li>
-          <li><a href="/services">Services</a></li>
-        </ul>
-      </nav>
+    <div>
+    <Navbar />
+    <Hero />
+    <Footer />
     </div>
-  );
-};
+  )
+}
+export default HomePage;
 
-export default Home
+
+
+
+{/* <button className='p-2 bg bg-green-500 m-1 border-yellow-500 border-radius-4 rounded-md'>Home</button> */}

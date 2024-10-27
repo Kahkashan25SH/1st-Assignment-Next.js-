@@ -3,7 +3,7 @@ import Link from "next/link";
 const Contact: React.FC = () => {
     return (
       <div className="bg-indigo-700 text-white pt-10 pb-10 text-center m-20 rounded">
-       <h1 className="font-bold">📲 Contact:</h1>
+       <h1 className="font-bold"> Contact:</h1>
 
         <p>Phone: 0333-123456</p>
         <p>Email: Kahkashanahmed@gmail.com </p>

@@ -5,8 +5,7 @@ const About: React.FC = () => {
     <div>
         <h1> About Us:</h1>
       <p>
-        As a web developer, I specialize in building responsive, user-friendly websites that help businesses and individuals establish their online presence. <br /> My goal is to create websites that are not only visually appealing but also functional and accessible to all users.
-      </p>
+        As a web developer, I specialize in building responsive, user-friendly websites that help businesses and individuals establish their online presence. 
     </div>
     )
   };

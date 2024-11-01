@@ -3,30 +3,13 @@ import Link from "next/link";
 
 const Services: React.FC = () => {
       return (
-        <div className="bg-rose-600 text-white pt-10 pb-10 text-center m-20 rounded-lg">
-          <h1 className="font-extrabold"> Services:</h1>
+        <div>
+          <h1> Services:</h1>
 
-           <p className="text-xl">We specialize in creating engaging, user-friendly websites.</p>
-               We offer a range of web development services, including:
-
-             <ul>
-               <li>Custom website design and development</li>
-               <li>SEO optimization</li>
-               <li>E-commerce solutions</li>
-               <li>Ongoing website maintenance and support</li>
-             </ul>
-            
-        
-        <div className="mt-5">
-              <Link href="/">
-              <button className="bg-rose-300 px-5 text-black hover:bg-rose-800 py-2 hover:text-white transition rounded-full">Go to Home Page</button>
-              </Link>
-        </div>
+           <p> We specialize in creating engaging, user-friendly websites.</p>
+           <p> We offer a range of web development services, including.</p>
         
         </div>
       );
     }
-   
-
-
    export default Services; 
